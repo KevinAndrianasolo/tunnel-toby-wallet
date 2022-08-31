@@ -1,0 +1,8 @@
+@font-face{
+    font-family: "ConfigAlt";
+    src : url('../fonts/config_complete_fonts/ConfigAlt-Regular.otf');
+}
+@font-face{
+    font-family: "ConfigAlt-Bold";
+    src : url('../fonts/config_complete_fonts/ConfigAlt-ExtraBold.otf');
+}

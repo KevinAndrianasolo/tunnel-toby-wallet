@@ -429,7 +429,7 @@ figure {
 /* Body */
 body {
   /* font-family: "Source Sans Pro", sans-serif; */
-  font-family: 'Config Alt', sans-serif;
+  font-family: 'ConfigAlt', sans-serif;
   font-size: 16px;
   color: #5b7182;
 }
@@ -441,8 +441,7 @@ h3,
 h4,
 h6 {
   /* font-family: "Montserrat", sans-serif; */
-  font-family: 'Config Alt', sans-serif;
-  font-weight: 800;
+  font-family: 'ConfigAlt-Bold', sans-serif;
 }
 
 table {
@@ -3872,7 +3871,7 @@ body[class*="aw-ie"] .timeline .article-item>.article-head .corner {
 }
 .banner-section .action-buttons .btn{
   font-size : 2rem!important;
-   : 2rem!important;
+  line-height : 2rem!important;
 }
 
 .banner-section .banner-middle-content{
