@@ -1,0 +1,107 @@
+
+@keyframes animation-img-anime1-feature2 {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes animation-img-anime2-feature2 {
+	
+        0% {
+        -webkit-transform: rotate(0) scale(1);
+                transform: rotate(0) scale(1);
+      }
+      50% {
+        -webkit-transform: rotate(-90deg) scale(1);
+                transform: rotate(-90deg) scale(1);
+      }
+      100% {
+        -webkit-transform: rotate(-360deg) scale(1);
+                transform: rotate(-360deg) scale(1);
+      }
+}
+@keyframes animation-img-anime3-feature2 {
+	0% {
+		transform: translatex(0px) translatey(0px);
+	}
+	50% {
+		transform: translatex(-20px) translatey(-30px);
+	}
+	100% {
+        transform: translatex(0px) translatey(0px);
+	}
+}
+@keyframes animation-img-anime4-feature2 {
+	0% {
+		transform: translatex(0px) translatey(0px);
+	}
+	50% {
+		transform: translatex(-20px) translatey(-30px);
+	}
+    50% {
+		transform: translatex(10px) translatey(-10px);
+	}
+	100% {
+        transform: translatex(0px) translatey(0px);
+	}
+}
+
+/** FOR OTHER BROWSER **/
+@-webkit-keyframes animation-img-anime1-feature2 {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@-webkit-keyframes animation-img-anime2-feature2 {
+	
+        0% {
+        -webkit-transform: rotate(0) scale(1);
+                transform: rotate(0) scale(1);
+      }
+      50% {
+        -webkit-transform: rotate(-90deg) scale(1);
+                transform: rotate(-90deg) scale(1);
+      }
+      100% {
+        -webkit-transform: rotate(-360deg) scale(1);
+                transform: rotate(-360deg) scale(1);
+      }
+}
+@-webkit-keyframes animation-img-anime3-feature2 {
+	0% {
+		transform: translatex(0px) translatey(0px);
+	}
+	50% {
+		transform: translatex(-20px) translatey(-30px);
+	}
+	100% {
+        transform: translatex(0px) translatey(0px);
+	}
+}
+@-webkit-keyframes animation-img-anime4-feature2 {
+	0% {
+		transform: translatex(0px) translatey(0px);
+	}
+	50% {
+		transform: translatex(-20px) translatey(-30px);
+	}
+    50% {
+		transform: translatex(10px) translatey(-10px);
+	}
+	100% {
+        transform: translatex(0px) translatey(0px);
+	}
+}

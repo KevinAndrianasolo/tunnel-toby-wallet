@@ -1,0 +1,88 @@
+/* Portrait tablets and small desktops */
+@media (min-width: 225px) and (max-width: 991px) {
+    #feature6 .feat-text p, #feature7 .feat-text p:nth-child(1) {
+        font-size: 15px !important;
+        line-height: 1.2em;
+    }
+
+    #feature7 .feat-text p:nth-child(2){
+        font-size: 11px !important;
+        line-height: 1.2em;
+    }
+    #feature8 .feature8-rondExt{
+        width:125px;
+        height:125px;
+    }
+
+    #feature8 .feature8-rondExt>.feature8-rondContent {
+        font-size: 25px;
+    }
+
+    #feature8 .feature8-rondExt>.feature8-rondContent>sup {
+        font-size: 12.5px;
+    }
+
+
+
+    .img-anime1-feature2 {
+        right : 60px!important;
+        width : 25px;
+    }
+    .img-anime2-feature2 {
+        width : 35px;
+        top : 10px!important;
+    }
+    
+    .img-anime3-feature2 {
+        width : 50px;
+        left : 30px!important;
+    }
+    .img-anime4-feature2 {
+        width : 15px;
+    }
+    
+    .img-anime1-feature5 {
+        width : 25px;
+    }
+    
+    .img-anime2-feature5 {
+        width : 50px;
+    }
+    
+    .img-anime3-feature5 {
+        width : 100px;
+    }
+    .img-anime1-feature5-suite1 {
+        width : 25px;
+    }
+    .img-anime1-feature5-suite2 {
+        width : 25px;
+    }
+    
+    .img-anime1-feature6 {
+        width : 25px;
+    }
+    
+    .img-anime2-feature6 {
+        width : 25px;
+    }
+    
+    .img-anime1-feature7 {
+        width : 25px;
+    }
+    
+    .img-anime2-feature7 {
+        width : 25px;
+    }
+    .img-anime1-feature8 {
+        width : 25px;
+    }
+    
+    .img-anime2-feature8 {
+        width : 25px;
+    }
+    
+    .img-anime3-feature8 {
+        width : 25px;
+    }
+}

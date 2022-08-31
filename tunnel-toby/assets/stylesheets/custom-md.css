@@ -1,0 +1,29 @@
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /** image **/
+    .image-feature2 {
+        position: absolute !important;
+        top: -140px !important;
+        left:0px !important;
+        /*height: 583px !important;*/
+        z-index:10
+    }
+
+    /** features **/
+    .feature6-icon {
+        width: 500px !important;
+    }
+
+    #feature8 .feature8-rondExt{
+        width:150px;
+        height:150px;
+    }
+
+    #feature8 .feature8-rondExt>.feature8-rondContent {
+        font-size: 50px;
+    }
+
+    #feature8 .feature8-rondExt>.feature8-rondContent>sup {
+        font-size: 12.5px;
+    }
+}

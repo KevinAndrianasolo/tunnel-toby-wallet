@@ -1,0 +1,340 @@
+.arrow-control,
+.testimonial-navigation > i {
+	outline: none;
+}
+.h-100{
+	min-height : 100%;
+}
+.h-100vh{
+	min-height : 100vh;
+}
+/** font size **/
+.fs-96 {
+	font-size: 96px !important;
+}
+.fs-92 {
+	font-size: 92px !important;
+}
+.fs-75 {
+	font-size: 75px !important;
+}
+.fs-52 {
+	font-size: 52px !important;
+}
+.fs-28 {
+	font-size: 28px !important;
+}
+.fs-22 {
+	font-size: 22px !important;
+}
+.fs-17 {
+	font-size: 17px !important;
+}
+
+.fs-15 {
+	font-size: 15px !important;
+}
+
+/** font family **/
+.ff-montserat{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+/** line-height **/
+.line-height-1{
+	line-height: 1.5em !important;
+}
+.line-height-1-2{
+	line-height: 1.2em !important;
+}
+.line-height-1-1{
+	line-height: 1.1em !important;
+}
+
+/** background color **/
+.bg-violet {
+	background:#18136d !important;
+}
+.bg-gradient-vb {
+	background: rgb(59,125,156);
+	background: linear-gradient(60deg, rgba(59,125,156,1) 0%, rgba(147,92,237,1) 0%, rgba(58,139,245,1) 86%);
+}
+.bg-gradient-vb-2 {
+	background: rgb(59,125,156);
+	background: linear-gradient(60deg, rgba(59,125,156,1) 0%, rgba(147,92,237,1) 0%, rgba(58,139,245,1) 95%);
+}
+.bg-gradient-bv {
+	background: rgb(59,125,156);
+	background: linear-gradient(60deg, rgba(59,125,156,1) 0%, rgba(58,139,245,1) 0%, rgba(147,92,237,1) 86%);
+}
+.bg-tobe-card-basic, .bg-tobe-card-gold{
+	background-image: url("../images/basic & gold.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-tobe-card-premium{
+	background-image: url("../images/premium.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bg-button{
+	background-image: url("../images/boutton.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/** color **/
+.text-violet {
+    color: #18136d !important;
+}
+.text-gris {
+    color :#575573 !important;
+}
+.text-light-violet {
+	color: #575573 !important;
+}
+
+.text-violet-title {
+	color: #17136c !important;
+}
+
+.text-violet-description {
+	color :#9652eb !important;
+}
+
+.text-primary {
+	color: #3297f1 !important;
+}
+/** boutton **/
+.btn-aws {
+	border-radius: 20px;
+	padding-top: 2px !important;
+	padding-bottom: 2px !important;
+}
+
+/** ul liste à puce **/
+.ul-diamond {
+    list-style-image: url('../images/diamond 2.svg');
+}
+
+/** texte **/
+.text-justify{
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+
+/** width **/
+.w-55 {
+	width: 55% !important;
+}
+
+/** border-radius **/
+.border-radius-card {
+	border-radius:30px !important
+}
+
+/** tobe card **/
+.tobe-card {
+	/* min-height: 550px !important; */
+	max-width: 417px !important;
+}
+.tobe-card hr {
+	height: 2px !important;
+	width:71% !important;
+	background: #9652eb;
+}
+
+.tobe-card>p{
+	height: 62px !important;
+	font-size: 14px !important;
+}
+
+.tobe-card>.tobe-card-price>.tobe-card-price-unity {
+	padding-top:2rem!important;
+	margin-left: -15px;
+}
+.tobe-card>.tobe-card-categorie{
+	font-weight: 600 !important;
+	height:40px !important;
+}
+
+/** feature - section **/
+
+#feature3, #feature4,#feature5 {
+	margin-top: 132px !important;
+}
+.feature2-section {
+	padding: 75px 0;
+}
+
+#feature8 .feature8-rondExt {
+	background: rgb(59,125,156);
+	background: linear-gradient(360deg, rgba(59,125,156,1) 0%, rgba(147,92,237,1) 0%, rgba(58,139,245,1) 86%);
+	margin: auto;
+	padding:10px;
+	overflow: hidden;
+	border-radius: 50%
+}
+
+#feature8 .feature8-rondExt>.feature8-rondContent {
+	margin:0;
+	width: 100% !important;
+	height: 100% !important;
+	background:#f2faff !important;
+	text-align: center;
+	border-radius: 50%;
+	display:flex;
+}
+#feature8 .feature8-rondExt>.feature8-rondContent>* {
+	margin: auto;
+
+}
+#feature8-pricing .feature8-pricing-container {
+    background-image: url("../images/fond.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*** image animé ***/
+.img-anime1-feature2 {
+	position:absolute;
+	right:-20px !important;
+	top:0px !important;
+	border-radius: 100%;
+	z-index : 5;
+	transform: translatey(0px);
+	-webkit-animation:animation-img-anime1-feature2 4s ease-in-out infinite alternate;
+			animation: animation-img-anime1-feature2 4s ease-in-out infinite alternate;
+
+}
+.img-anime2-feature2 {
+	position: absolute;
+	right: 79px !important;
+	top: 120px !important;
+	z-index : -1;
+	-webkit-animation: animation-img-anime2-feature2 2s ease-out infinite alternate both;
+	        animation: animation-img-anime2-feature2 2s ease-out infinite alternate both;
+}
+
+.img-anime3-feature2 {
+	position: absolute;
+	left: -20px !important;
+	bottom: 50px !important;
+	z-index : -1;
+	animation: animation-img-anime3-feature2 12s ease-in-out infinite;
+}
+.img-anime4-feature2 {
+	position: absolute;
+	left: 63px !important;
+	bottom: 7px !important;
+	z-index : -1;
+	animation: animation-img-anime4-feature2 8s ease-in-out infinite;
+}
+
+.img-anime1-feature5 {
+	position: absolute;
+	right: -16px !important;
+	top: -166px !important;
+	z-index : -1;
+	-webkit-animation:animation-img-anime3-feature2 4s ease-in-out infinite alternate;
+			animation: animation-img-anime3-feature2 4s ease-in-out infinite alternate;
+}
+
+.img-anime2-feature5 {
+	position: absolute;
+	right: 57px !important;
+	top: -21px !important;
+	z-index : -1;
+	-webkit-animation:animation-img-anime1-feature2 12s ease-in-out infinite alternate;
+			animation: animation-img-anime1-feature2 12s ease-in-out infinite alternate;
+}
+
+.img-anime3-feature5 {
+	position: absolute;
+	left: -57px !important;
+	top: 313px !important;
+	z-index : -1;
+	-webkit-animation:animation-img-anime4-feature2 8s ease-in-out infinite alternate;
+			animation: animation-img-anime4-feature2 8s ease-in-out infinite alternate;
+}
+.img-anime1-feature5-suite1 {
+	position: absolute;
+	right: 52px !important;
+	top: 12px !important;
+	z-index : -1;
+	-webkit-animation: animation-img-anime2-feature2 2s ease-out infinite alternate both;
+	        animation: animation-img-anime2-feature2 2s ease-out infinite alternate both;
+}
+.img-anime1-feature5-suite2 {
+	position: absolute;
+	right: -73px !important;
+	top: -19px !important;
+	z-index : -1;
+	-webkit-animation:animation-img-anime4-feature2 8s ease-in-out infinite alternate;
+			animation: animation-img-anime4-feature2 8s ease-in-out infinite alternate;
+}
+
+.img-anime1-feature6 {
+	position: absolute;
+	bottom: -82px !important;
+	left: 118px !important;
+	z-index : -1;
+	-webkit-animation: animation-img-anime2-feature2 4s ease-out infinite alternate both;
+	        animation: animation-img-anime2-feature2 4s ease-out infinite alternate both;
+}
+
+.img-anime2-feature6 {
+	position: absolute;
+	right: 43px !important;
+	bottom: 31px !important;
+	z-index : -1;
+	-webkit-animation: animation-img-anime2-feature2 6s ease-out infinite alternate both;
+	        animation: animation-img-anime2-feature2 6s ease-out infinite alternate both;
+}
+
+.img-anime1-feature7 {
+	position: absolute;
+	top: -44px !important;
+	left: 17px !important;
+	z-index : -1;
+	-webkit-animation:animation-img-anime3-feature2 4s ease-in-out infinite alternate;
+			animation: animation-img-anime3-feature2 4s ease-in-out infinite alternate;
+}
+
+.img-anime2-feature7 {
+	position: absolute;
+	top: 79px !important;
+	left: -10px !important;
+	z-index : -1;
+	-webkit-animation:animation-img-anime3-feature2 12s ease-in-out infinite alternate;
+			animation: animation-img-anime3-feature2 12s ease-in-out infinite alternate;
+}
+.img-anime1-feature8 {
+	position:absolute;
+	top: 45px!important;
+	right: -19px !important;
+	z-index : -1;
+	-webkit-animation: animation-img-anime4-feature2 8s ease-in-out infinite;
+			animation: animation-img-anime4-feature2 8s ease-in-out infinite;
+}
+
+.img-anime2-feature8 {
+	position: absolute;
+	bottom: 30px!important;
+	left: 47px !important;
+	z-index : -1;
+	-webkit-animation: animation-img-anime1-feature2 4s ease-in-out infinite;
+			animation: animation-img-anime1-feature2 4s ease-in-out infinite;
+}
+
+.img-anime3-feature8 {
+	position:absolute;
+	bottom: -124px!important;
+	left: -10px !important;
+	z-index : -1;
+	-webkit-animation: animation-img-anime4-feature2 8s ease-in-out infinite;
+			animation: animation-img-anime4-feature2 8s ease-in-out infinite;
+}
