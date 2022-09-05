@@ -429,7 +429,7 @@ figure {
 /* Body */
 body {
   /* font-family: "Source Sans Pro", sans-serif; */
-  font-family: 'ConfigAlt', sans-serif;
+  font-family: 'Config', sans-serif;
   font-size: 16px;
   color: #5b7182;
 }
@@ -441,7 +441,7 @@ h3,
 h4,
 h6 {
   /* font-family: "Montserrat", sans-serif; */
-  font-family: 'ConfigAlt-Bold', sans-serif;
+  font-family: 'Config-Bold', sans-serif;
 }
 
 table {
@@ -3297,6 +3297,11 @@ table tbody tr td {
   /*background: linear-gradient(60deg, rgba(3,35,209,0.75) 0%, rgba(29,142,135,0.75) 39%, rgba(68,0,152,0.8914916308320203) 100%);*/
   background: linear-gradient(60deg, rgba(3,35,209,0.75) 0%, rgba(29,142,135,0.75) 39%, rgba(68,0,152,0.8914916308320203) 100%);
 }
+.gradient .overlay.overlay--purple {
+  background: rgb(59,125,156);
+  background: linear-gradient(60deg, rgba(59,125,156,1) 0%, rgba(147,92,237,1) 0%, rgba(58,139,245,1) 86%);
+  opacity: 0.85;
+}
 
 .gradient .overlay .section-title {
   color: #FFFFFF;
@@ -3884,10 +3889,6 @@ body[class*="aw-ie"] .timeline .article-item>.article-head .corner {
   right : 5%;
 }
 
-.image-feature2 {
-  max-width : 600px;
-  width : 100%;
-}
 
 @media (max-width: 1500px) {
   
@@ -4005,6 +4006,14 @@ body[class*="aw-ie"] .timeline .article-item>.article-head .corner {
   .banner-section .banner-image-2{
     display : none;
   }
+}
+
+
+.ff-config-regular{
+  font-family: 'Config', sans-serif;
+}
+.ff-config-bold{
+  font-family: 'Config-Bold', sans-serif;
 }
 
 

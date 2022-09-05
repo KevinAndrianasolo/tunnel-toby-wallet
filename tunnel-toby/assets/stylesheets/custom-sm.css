@@ -1,5 +1,15 @@
 /* Portrait tablets and small desktops */
 @media (min-width: 225px) and (max-width: 991px) {
+    .image-feature2 {
+        max-width : 600px;
+        margin : 0 auto;
+        display : block;
+        width : 100%;
+    }
+    .image-feature2.image-feature2--left{
+        margin : 0px;
+        margin-left : -50px;
+    }
     #feature6 .feat-text p, #feature7 .feat-text p:nth-child(1) {
         font-size: 15px !important;
         line-height: 1.2em;
